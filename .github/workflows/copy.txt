@@ -34,3 +34,5 @@ https://test.pypi.org/legacy/
  1192  python3 -m twine upload --repository testpypi dist/*
  1193  python3 -m twine upload --repository testpypi dist/*
 
+ git tag "v0.0.2" -m "release 0.0.2"
+ git push upstream origin main --tags
